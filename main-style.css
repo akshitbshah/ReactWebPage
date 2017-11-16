@@ -1,0 +1,92 @@
+.logo-class{
+  height: 100px;
+  width: 100px;
+}
+.root-div{
+  display: grid;
+  grid-template-columns: 2fr 0.3fr;
+  grid-template-rows: 0.5fr 3fr 0.5fr;
+  grid-gap: 0.5%;
+  height: 100vh;
+}
+.BlogPost{
+  display: grid;
+  grid-template-columns: 0.1fr 1fr;
+  grid-template-rows: 0.1fr 1fr;
+}
+.logo-container{
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.header-container{
+  grid-row: 1;
+  grid-column: 2;
+}
+.detail-container{
+  grid-row: 2;
+  grid-column: 1/3;
+}
+.header{
+  grid-row: 1;
+  grid-column: 1/3;
+  border: 1px solid #000;
+  border-radius: 5px;
+    background-image: url('images/header_image.jpg');
+}
+.middle-layout{
+  grid-row: 2;
+  grid-column: 1/3;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.middle-layout1{
+  grid-column: 1;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: 2fr 0.2fr;
+  grid-template-rows: 1fr;
+}
+
+.blog-content{
+  grid-row: 1;
+  grid-column: 1;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.nav-content{
+  grid-row: 1;
+  grid-column: 2;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.menu-link:visited{
+  text-decoration: none;
+}
+.nav1inner{
+    width:100%;
+    height:33.33%;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: solid 1px #dddddd;
+}
+.nav1inner:hover{
+  background-color: #2FC2EF;
+}
+.link{
+  height: 60px;
+}
+.title{
+  font:bold 30px verdana;
+  color:#f2f2f2;
+  width:100%;
+  text-align:center;
+}
+
+.footer{
+  grid-row: 3;
+  grid-column: 1/3;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
